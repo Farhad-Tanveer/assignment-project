@@ -45,3 +45,48 @@
 }
 
 /* previous year section styles */
+
+.previous-yr img {
+    padding: 70px 0;
+}
+
+.previous-yr {
+    display: flex;
+    gap: 50px;
+    padding: 70px 150px;
+}
+
+.previous-yr-text {
+    padding-top: 300px;
+}
+
+.previous-yr-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    padding-right: 300px;
+}
+
+.previous-yr-description {
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.previous-yr ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    list-style: none;
+}
+
+.previous-yr li {
+    padding-bottom: 10px;
+}
+
+.previous-yr li span {
+    color: green;
+}
