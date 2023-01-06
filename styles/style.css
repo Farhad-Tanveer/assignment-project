@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* banner section styels */
+.banner {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.banner-text {
+    padding-top: 150px;
+    padding-left: 900px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    direction: rtl;
+    /* to change the text direction */
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.banner-description {
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* previous year section styles */
