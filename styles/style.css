@@ -1,7 +1,6 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
 }
 
 /* banner section styels */
@@ -89,4 +88,81 @@
 
 .previous-yr li span {
     color: green;
+}
+
+/* my plans styles */
+
+.my-plans {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.plans-item {
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+}
+
+.plan img {
+    height: 50px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #181818;
+    padding: 10px 0;
+
+}
+
+.plan-description {
+    color: gray;
+
+}
+
+/* banner positive section styles */
+
+
+.banner-positive {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(242, 121, 53, 1)), url('../images/watch.png');
+    /* using "Linear Gradient - Transparency" in here */
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner-positive {
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 70px;
+}
+
+.title {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.banner-positive-context {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.banner-positive-context button {
+    border: none;
+    color: #FD6E0A;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
