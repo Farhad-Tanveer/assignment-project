@@ -10,6 +10,7 @@
     background-position: center;
     background-size: 100% 100%;
     height: 600px;
+
 }
 
 .banner-text {
@@ -52,11 +53,13 @@
 .previous-yr {
     display: flex;
     gap: 50px;
-    padding: 70px 150px;
+    /* padding: 70px 150px; */
+    margin-left: 200px;
 }
 
 .previous-yr-text {
     padding-top: 300px;
+    padding-right: 70px;
 }
 
 .previous-yr-title {
@@ -160,6 +163,60 @@
 }
 
 .banner-positive-context button {
+    border: none;
+    color: #FD6E0A;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* contact part styles */
+
+.contact {
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 250px;
+    justify-content: space-between;
+    padding: 50px 300px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.contact p {
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    padding: 10px 0;
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact a img {
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.subs {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input {
+    border: 1px solid white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact button {
     border: none;
     color: #FD6E0A;
     background-color: white;
